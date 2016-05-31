@@ -24,17 +24,17 @@ export DATA_DIRECTORY=data
 
 # We need a user and password for wget to maven repo
 export MVN_READONLY_USER=readonly
-export MVN_READONLY_PASSWORD=readonly.....
+export MVN_READONLY_PASSWORD=readonly...
 
 # Acquisition paths:
-export JDK_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-7u17-linux-x64.tar.gz
-export ANT_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/apache/ant/apache-ant/1.8.4/apache-ant-1.8.4-bin.zip
-export JBOSS_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA-brisskit/jboss-4.2.3.GA-brisskit-development.zip
-export I2B2_SOURCE_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/155-briccs-1.0/i2b2core-src-155-briccs-1.0.zip
-export I2B2_DATA_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/15-briccs-1.0/i2b2demodata-15-briccs-1.0.zip
-export AXIS_WAR_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/thirdparty/axis/axis2/size-11047678/axis2-size-11047678.war
-export I2B2_INTEGRATION_WS_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2WS/1.0-RC1/i2b2WS-1.0-RC1.war
-export I2B2_ADMIN_PROCEDURES_DOWNLOAD_PATH=http://maven.brisskit.le.ac.uk/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2-admin-procedures/1.0-RC1-development/i2b2-admin-procedures-1.0-RC1-development.zip
+export JDK_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-7u17-linux-x64.tar.gz
+export ANT_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/apache/ant/apache-ant/1.8.4/apache-ant-1.8.4-bin.zip
+export JBOSS_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA-brisskit/jboss-4.2.3.GA-brisskit-development.zip
+export I2B2_SOURCE_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2core-src/155-briccs-1.0/i2b2core-src-155-briccs-1.0.zip
+export I2B2_DATA_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/i2b2/i2b2demodata/15-briccs-1.0/i2b2demodata-15-briccs-1.0.zip
+export AXIS_WAR_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/thirdparty/axis/axis2/size-11047678/axis2-size-11047678.war
+export I2B2_INTEGRATION_WS_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2WS/1.0-RC1/i2b2WS-1.0-RC1.war
+export I2B2_ADMIN_PROCEDURES_DOWNLOAD_PATH=https://maven.brisskit.le.ac.uk:443/nexus/content/repositories/releases/org/brisskit/app/i2b2/i2b2-admin-procedures/1.0-RC1-development/i2b2-admin-procedures-1.0-RC1-development.zip
 
 export SSH_INTEGRATION_USER=integration
 
@@ -53,7 +53,7 @@ export HTML_LOCATION=/var/www/i2b2
 # This should be a full address. Don't use localhost.
 # The port number depends upon whether you have encryption set up.
 # For encryption use 8443. If no encryption, use 8080
-export LIST_SERVICES_URL=https://YOUR_SERVER_HERE:8080/i2b2/services/listServices
+export LIST_SERVICES_URL=httpss://YOUR_SERVER_HERE:8080/i2b2/services/listServices
 
 # Location of the i2b2 file repo cell (will be created by the install)
 export FILE_REPO_LOCATION=/var/local/brisskit/i2b2/FRC
